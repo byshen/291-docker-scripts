@@ -1,38 +1,106 @@
-2021-03-10 08:42:39,890 INFO fs.TestDFSIO: TestDFSIO.1.8
-2021-03-10 08:42:39,891 INFO fs.TestDFSIO: nrFiles = 10
-2021-03-10 08:42:39,891 INFO fs.TestDFSIO: nrBytes (MB) = 512.0
-2021-03-10 08:42:39,891 INFO fs.TestDFSIO: bufferSize = 1000000
-2021-03-10 08:42:39,892 INFO fs.TestDFSIO: baseDir = /benchmarks/TestDFSIO
-2021-03-10 08:42:40,331 INFO fs.TestDFSIO: creating control file: 536870912 bytes, 10 files
-2021-03-10 08:42:40,448 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:40,527 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:40,541 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:40,557 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:40,589 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:40,614 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:40,640 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:40,666 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:40,688 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:40,704 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:40,708 INFO fs.TestDFSIO: created control files for: 10 files
-2021-03-10 08:42:40,855 INFO client.RMProxy: Connecting to ResourceManager at resourcemanager/172.24.0.4:8032
-2021-03-10 08:42:40,951 INFO client.AHSProxy: Connecting to Application History server at historyserver/172.24.0.2:10200
-2021-03-10 08:42:40,969 INFO client.RMProxy: Connecting to ResourceManager at resourcemanager/172.24.0.4:8032
-2021-03-10 08:42:40,970 INFO client.AHSProxy: Connecting to Application History server at historyserver/172.24.0.2:10200
-2021-03-10 08:42:41,057 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/root/.staging/job_1615360265117_0004
-2021-03-10 08:42:41,082 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:41,303 INFO mapred.FileInputFormat: Total input files to process : 10
-2021-03-10 08:42:41,325 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:41,343 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:41,348 INFO mapreduce.JobSubmitter: number of splits:10
-2021-03-10 08:42:41,443 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-2021-03-10 08:42:41,448 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1615360265117_0004
-2021-03-10 08:42:41,448 INFO mapreduce.JobSubmitter: Executing with tokens: []
-2021-03-10 08:42:41,557 INFO conf.Configuration: resource-types.xml not found
-2021-03-10 08:42:41,558 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
-2021-03-10 08:42:41,802 INFO impl.YarnClientImpl: Submitted application application_1615360265117_0004
-2021-03-10 08:42:41,830 INFO mapreduce.Job: The url to track the job: http://resourcemanager:8088/proxy/application_1615360265117_0004/
-2021-03-10 08:42:41,831 INFO mapreduce.Job: Running job: job_1615360265117_0004
-2021-03-10 08:42:45,892 INFO mapreduce.Job: Job job_1615360265117_0004 running in uber mode : false
-2021-03-10 08:42:45,894 INFO mapreduce.Job:  map 0% reduce 0%
+2021-03-11 08:48:17,816 INFO fs.TestDFSIO: TestDFSIO.1.8
+2021-03-11 08:48:17,817 INFO fs.TestDFSIO: nrFiles = 10
+2021-03-11 08:48:17,817 INFO fs.TestDFSIO: nrBytes (MB) = 512.0
+2021-03-11 08:48:17,817 INFO fs.TestDFSIO: bufferSize = 1000000
+2021-03-11 08:48:17,817 INFO fs.TestDFSIO: baseDir = /benchmarks/TestDFSIO
+2021-03-11 08:48:18,252 INFO fs.TestDFSIO: creating control file: 536870912 bytes, 10 files
+2021-03-11 08:48:18,370 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:18,461 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:18,892 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:19,323 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:19,340 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:19,358 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:19,785 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:19,817 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:19,844 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:20,300 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:20,717 INFO fs.TestDFSIO: created control files for: 10 files
+2021-03-11 08:48:20,869 INFO client.RMProxy: Connecting to ResourceManager at resourcemanager/172.29.0.3:8032
+2021-03-11 08:48:20,967 INFO client.AHSProxy: Connecting to Application History server at historyserver/172.29.0.2:10200
+2021-03-11 08:48:20,986 INFO client.RMProxy: Connecting to ResourceManager at resourcemanager/172.29.0.3:8032
+2021-03-11 08:48:20,987 INFO client.AHSProxy: Connecting to Application History server at historyserver/172.29.0.2:10200
+2021-03-11 08:48:21,094 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/root/.staging/job_1615452400759_0001
+2021-03-11 08:48:21,141 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:21,206 INFO mapred.FileInputFormat: Total input files to process : 10
+2021-03-11 08:48:21,253 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:21,285 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:21,696 INFO mapreduce.JobSubmitter: number of splits:10
+2021-03-11 08:48:21,838 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2021-03-11 08:48:21,847 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1615452400759_0001
+2021-03-11 08:48:21,847 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2021-03-11 08:48:21,951 INFO conf.Configuration: resource-types.xml not found
+2021-03-11 08:48:21,951 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2021-03-11 08:48:22,209 INFO impl.YarnClientImpl: Submitted application application_1615452400759_0001
+2021-03-11 08:48:22,231 INFO mapreduce.Job: The url to track the job: http://resourcemanager:8088/proxy/application_1615452400759_0001/
+2021-03-11 08:48:22,232 INFO mapreduce.Job: Running job: job_1615452400759_0001
+2021-03-11 08:48:27,294 INFO mapreduce.Job: Job job_1615452400759_0001 running in uber mode : false
+2021-03-11 08:48:27,296 INFO mapreduce.Job:  map 0% reduce 0%
+2021-03-11 08:48:31,333 INFO mapreduce.Job:  map 10% reduce 0%
+2021-03-11 08:48:33,340 INFO mapreduce.Job:  map 30% reduce 0%
+2021-03-11 08:48:35,347 INFO mapreduce.Job:  map 40% reduce 0%
+2021-03-11 08:48:37,356 INFO mapreduce.Job:  map 60% reduce 0%
+2021-03-11 08:48:39,363 INFO mapreduce.Job:  map 70% reduce 0%
+2021-03-11 08:48:41,376 INFO mapreduce.Job:  map 90% reduce 0%
+2021-03-11 08:48:43,385 INFO mapreduce.Job:  map 100% reduce 0%
+2021-03-11 08:48:57,487 INFO mapreduce.Job:  map 100% reduce 100%
+2021-03-11 08:48:57,491 INFO mapreduce.Job: Task Id : attempt_1615452400759_0001_r_000000_0, Status : FAILED
+Error: java.io.IOException: Unable to close file because the last blockBP-1104663455-172.18.0.4-1615110234547:blk_1073745259_4441 does not have enough number of replicas.
+	at org.apache.hadoop.hdfs.DFSOutputStream.completeFile(DFSOutputStream.java:963)
+	at org.apache.hadoop.hdfs.DFSOutputStream.completeFile(DFSOutputStream.java:907)
+	at org.apache.hadoop.hdfs.DFSOutputStream.closeImpl(DFSOutputStream.java:890)
+	at org.apache.hadoop.hdfs.DFSOutputStream.close(DFSOutputStream.java:845)
+	at org.apache.hadoop.fs.FSDataOutputStream$PositionCache.close(FSDataOutputStream.java:72)
+	at org.apache.hadoop.fs.FSDataOutputStream.close(FSDataOutputStream.java:101)
+	at org.apache.hadoop.mapred.TextOutputFormat$LineRecordWriter.close(TextOutputFormat.java:98)
+	at org.apache.hadoop.mapred.ReduceTask$OldTrackingRecordWriter.close(ReduceTask.java:503)
+	at org.apache.hadoop.mapred.ReduceTask.runOldReducer(ReduceTask.java:457)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:393)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:168)
+
+2021-03-11 08:48:58,535 INFO mapreduce.Job:  map 100% reduce 0%
+2021-03-11 08:49:14,644 INFO mapreduce.Job:  map 100% reduce 100%
+2021-03-11 08:49:14,648 INFO mapreduce.Job: Task Id : attempt_1615452400759_0001_r_000000_1, Status : FAILED
+Error: java.io.IOException: Unable to close file because the last blockBP-1104663455-172.18.0.4-1615110234547:blk_1073745260_4442 does not have enough number of replicas.
+	at org.apache.hadoop.hdfs.DFSOutputStream.completeFile(DFSOutputStream.java:963)
+	at org.apache.hadoop.hdfs.DFSOutputStream.completeFile(DFSOutputStream.java:907)
+	at org.apache.hadoop.hdfs.DFSOutputStream.closeImpl(DFSOutputStream.java:890)
+	at org.apache.hadoop.hdfs.DFSOutputStream.close(DFSOutputStream.java:845)
+	at org.apache.hadoop.fs.FSDataOutputStream$PositionCache.close(FSDataOutputStream.java:72)
+	at org.apache.hadoop.fs.FSDataOutputStream.close(FSDataOutputStream.java:101)
+	at org.apache.hadoop.mapred.TextOutputFormat$LineRecordWriter.close(TextOutputFormat.java:98)
+	at org.apache.hadoop.mapred.ReduceTask$OldTrackingRecordWriter.close(ReduceTask.java:503)
+	at org.apache.hadoop.mapred.ReduceTask.runOldReducer(ReduceTask.java:457)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:393)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:168)
+
+2021-03-11 08:49:15,653 INFO mapreduce.Job:  map 100% reduce 0%
+2021-03-11 08:49:31,768 INFO mapreduce.Job:  map 100% reduce 100%
+2021-03-11 08:49:31,769 INFO mapreduce.Job: Task Id : attempt_1615452400759_0001_r_000000_2, Status : FAILED
+Error: java.io.IOException: Unable to close file because the last blockBP-1104663455-172.18.0.4-1615110234547:blk_1073745261_4443 does not have enough number of replicas.
+	at org.apache.hadoop.hdfs.DFSOutputStream.completeFile(DFSOutputStream.java:963)
+	at org.apache.hadoop.hdfs.DFSOutputStream.completeFile(DFSOutputStream.java:907)
+	at org.apache.hadoop.hdfs.DFSOutputStream.closeImpl(DFSOutputStream.java:890)
+	at org.apache.hadoop.hdfs.DFSOutputStream.close(DFSOutputStream.java:845)
+	at org.apache.hadoop.fs.FSDataOutputStream$PositionCache.close(FSDataOutputStream.java:72)
+	at org.apache.hadoop.fs.FSDataOutputStream.close(FSDataOutputStream.java:101)
+	at org.apache.hadoop.mapred.TextOutputFormat$LineRecordWriter.close(TextOutputFormat.java:98)
+	at org.apache.hadoop.mapred.ReduceTask$OldTrackingRecordWriter.close(ReduceTask.java:503)
+	at org.apache.hadoop.mapred.ReduceTask.runOldReducer(ReduceTask.java:457)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:393)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:174)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:168)
+
+2021-03-11 08:49:32,772 INFO mapreduce.Job:  map 100% reduce 0%
+2021-03-11 08:49:47,862 INFO mapreduce.Job:  map 100% reduce 100%
 ^C
